@@ -4,4 +4,4 @@ let nombre = prompt("Ingrese su nombre:");
 
 let myDom = document;
 let myApp = document.getElementById("myApp");
-myApp.innerHTML="Bienvenido ${nombre}";
+myApp.innerHTML = "Bienvenido " + nombre;
